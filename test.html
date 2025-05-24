@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <style>
+        .center-class {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: aquamarine;
+        }
+    </style>
+    <script>
+        function sayHello() {
+            alert("Hello, How are you?")
+            document.getElementById("bodytag").style.backgroundColor = "red";
+        }
+    </script>
+</head>
+
+<body class="center-class" id="bodytag">
+    <h1>This is very big h1 tag</h1>
+    <h4>This is small h4 tag</h4>
+    <h6>This is smallest h6 tag</h6>
+    <section>this is a section</section>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel culpa, officia doloremque architecto et accusamus
+        magnam dolor. Voluptate quisquam atque laudantium deserunt soluta dolorem maiores sed laboriosam dolor,
+        similique praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, nam! Pariatur non blanditiis dolore velit optio id
+        harum temporibus doloremque doloribus exercitationem? Cum voluptate, quod autem nostrum corrupti dolorum
+        officiis!</p>
+    <div>block elements</div>
+
+    <input type="button" value="Button" />
+    <br />
+    <input type="text" />
+    <br />
+    <input type="radio" />
+    <br />
+    <input type="file" />
+    <br />
+    <input type="date" />
+    <br />
+    <br />
+    <hr />
+    <button onclick="sayHello()">Submit button</button>
+    <br />
+    <br />
+    <select>
+        <option>Add</option>
+        <option>Sub</option>
+        <option>Mul</option>
+        <option>Div</option>
+    </select>
+    <br />
+    <img
+        src="https://hairassistant.streamlit.app/~/+/media/59522859bb41c197fc6216d04adbefb21093c0fcac4f719eef7e7f4b.jpg" />
+    <a href="https://hairassistant.streamlit.app/" target="_blank">Hair app link</a>
+    <marquee>abc</marquee>
+    <video width="320" height="240" controls>
+        <source src="https://youtu.be/ybyl4z3t8CU" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <audio controls>
+        <source src="C:\Users\ReMarkt\Downloads\download.wav" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</body>
+
+</html>
